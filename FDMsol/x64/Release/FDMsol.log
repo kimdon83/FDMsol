@@ -1,0 +1,31 @@
+﻿빌드 시작: 2015-12-11 오후 8:40:18
+     1>2 노드의 "D:\code\FDMsol - openMP - 복사본 - 복사본\FDMsol\FDMsol.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt cxman.cpp fdm_solver.cpp main.cpp node.cpp sparce_matrix.cpp vector.cpp
+         cxman.cpp
+         fdm_solver.cpp
+     1>d:\code\fdmsol - openmp - 복사본 - 복사본\fdmsol\node.h(27): warning C4154: 배열 식을 삭제했습니다. 포인터로 변환이 제공됩니다.
+         main.cpp
+     1>d:\code\fdmsol - openmp - 복사본 - 복사본\fdmsol\node.h(27): warning C4154: 배열 식을 삭제했습니다. 포인터로 변환이 제공됩니다.
+         node.cpp
+     1>d:\code\fdmsol - openmp - 복사본 - 복사본\fdmsol\node.h(27): warning C4154: 배열 식을 삭제했습니다. 포인터로 변환이 제공됩니다.
+         sparce_matrix.cpp
+         vector.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\FDMsol - openMP - 복사본 - 복사본\x64\Release\FDMsol.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\code\FDMsol - openMP - 복사본 - 복사본\x64\Release\FDMsol.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\FDMsol - openMP - 복사본 - 복사본\x64\Release\FDMsol.lib" /MACHINE:X64 x64\Release\cxman.obj
+         x64\Release\fdm_solver.obj
+         x64\Release\main.obj
+         x64\Release\node.obj
+         x64\Release\sparce_matrix.obj
+         x64\Release\vector.obj
+         코드를 생성하고 있습니다.
+         14 of 220 functions ( 6.4%) were compiled, the rest were copied from previous compilation.
+           4 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         코드를 생성했습니다.
+         FDMsol.vcxproj -> D:\code\FDMsol - openMP - 복사본 - 복사본\x64\Release\FDMsol.exe
+     1>"D:\code\FDMsol - openMP - 복사본 - 복사본\FDMsol\FDMsol.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.75

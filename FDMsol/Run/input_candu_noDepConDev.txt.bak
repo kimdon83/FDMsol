@@ -1,0 +1,143 @@
+Options (
+    Dimension 3
+    MeshSize 2.8575 2.8575 4.953
+    Albedo 0 0.4692 0 0.4692 0.4692 0.4692
+    omega 1.1
+    Method SOR
+);
+
+Geometry (
+    NodeNum   10 10 12	
+    xNodeSize 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+	yNodeSize 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+   	zNodeSize 49.53 49.53 49.53 49.53 49.53 49.53 49.53 49.53 49.53 49.53 49.53 49.53
+  
+    NodeType 
+    1
+      0 1 2 3 4 5 6 7 8 9 10 11
+   
+   Configuration 
+0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	.
+0	0	0	0	0	0	0	0	0	0	.
+0	0	0	0	0	0	0	0	0	.	.
+0	0	0	0	0	0	0	0	0	.	.
+0	0	0	0	0	0	0	0	.	.	.
+0	0	0	0	0	0	0	.	.	.	.
+0	0	0	0	0	0	.	.	.	.	.
+0	0	0	.	.	.	.	.	.	.	.
+
+);
+
+CXLibrary (
+  CXTableNum 12
+		CXTable  0 (
+		DiffCoeff 	1
+		SigAbs 	0.00295418
+		nuSigFis 	0.00330948
+		SigChi	1
+		SigSca	0.40077
+
+		);
+
+		CXTable  1 (
+		DiffCoeff 	1
+		SigAbs 	0.00295357
+		nuSigFis 	0.00331157
+		SigChi	1
+		SigSca	0.400995
+
+		);
+
+		CXTable  2 (
+		DiffCoeff 	1
+		SigAbs 	0.00295671
+		nuSigFis 	0.00331553
+		SigChi	1
+		SigSca	0.400958
+
+		);
+
+		CXTable  3 (
+		DiffCoeff 	1
+		SigAbs 	0.00295532
+		nuSigFis 	0.00331278
+		SigChi	1
+		SigSca	0.400975
+
+		);
+
+		CXTable  4 (
+		DiffCoeff 	1
+		SigAbs 	0.00295387
+		nuSigFis 	0.00331117
+		SigChi	1
+		SigSca	0.400982
+
+		);
+
+		CXTable  5 (
+		DiffCoeff 	1
+		SigAbs 	0.00295543
+		nuSigFis 	0.00331318
+		SigChi	1
+		SigSca	0.400981
+
+		);
+
+		CXTable  6 (
+		DiffCoeff 	1
+		SigAbs 	0.0029545
+		nuSigFis 	0.00331307
+		SigChi	1
+		SigSca	0.400963
+
+		);
+
+		CXTable  7 (
+		DiffCoeff 	1
+		SigAbs 	0.00295411
+		nuSigFis 	0.00331239
+		SigChi	1
+		SigSca	0.400975
+
+		);
+
+		CXTable  8 (
+		DiffCoeff 	1
+		SigAbs 	0.00295657
+		nuSigFis 	0.00331451
+		SigChi	1
+		SigSca	0.400947
+
+		);
+
+		CXTable  9 (
+		DiffCoeff 	1
+		SigAbs 	0.00295585
+		nuSigFis 	0.003314
+		SigChi	1
+		SigSca	0.40096
+
+		);
+
+		CXTable  10 (
+		DiffCoeff 	1
+		SigAbs 	0.00295239
+		nuSigFis 	0.0033094
+		SigChi	1
+		SigSca	0.401004
+
+		);
+
+		CXTable  11 (
+		DiffCoeff 	1
+		SigAbs 	0.00295348
+		nuSigFis 	0.0033114
+		SigChi	1
+		SigSca	0.400732
+
+		);
+);

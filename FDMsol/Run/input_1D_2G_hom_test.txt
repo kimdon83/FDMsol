@@ -1,0 +1,32 @@
+Options (
+    Dimension 3
+    MeshSize 2 1. 1.
+    Albedo 0.0 10e30 0.0 0.0   0.0 0.0 
+    omega 1.5
+    Method jacobi
+);
+
+Geometry (
+    NodeNum   1 1 1
+    xNodeSize 10.0
+	  yNodeSize 1.0
+   	zNodeSize 1.0
+  
+    NodeType 
+    1
+      0
+      
+   Configuration 
+        0	
+);
+
+CXLibrary (
+   CXTableNum 1
+   CXTable 0 (
+      DiffCoeff   1.66667 0.4
+      SigAbs      0.07 0.03
+      nuSigFis    0.0 0.135
+      SigChi      1.0 0.0 
+      SigSca      0.0 0.02 0.0 0.0
+   );
+);

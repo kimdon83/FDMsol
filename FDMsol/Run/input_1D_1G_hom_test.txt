@@ -1,0 +1,31 @@
+Options (
+    Dimension 3
+    MeshSize 0.1 1 1
+    Albedo 0 10e30 0 0 0 0 
+
+);
+
+Geometry (
+    NodeNum   1 1 1
+    xNodeSize 10 
+	  yNodeSize 1
+   	zNodeSize 1
+  
+    NodeType 
+    1
+      0
+      
+   Configuration 
+        0	
+);
+
+CXLibrary (
+   CXTableNum 1
+   CXTable 0 (
+      DiffCoeff   2
+      SigAbs      0.05
+      nuSigFis    0.135
+      SigChi      1.0 
+      SigSca      0.0
+   );
+); 
